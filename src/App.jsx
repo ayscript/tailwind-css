@@ -2,6 +2,7 @@ import "./App.css";
 import UserProfile from "./components/UserProfile";
 import Button from "./components/Button";
 import NewsCard from "./components/NewsComponent";
+import ProductGrid from "./components/notebook2/question1";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         </div>
       </div>
       <NewsCard />
+      <ProductGrid />
     </>
   );
 }
